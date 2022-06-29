@@ -3,9 +3,53 @@
   padding: 0;
   box-sizing: border-box;
 }
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 900px;
+  margin: 2rem auto;
+}
 .search {
   height: 3rem;
-  width: 10rem;
-  font-size: 1.1rem;
-  padding: 0.5 1rem;
+  width: 20rem;
+  font-size: 1.2rem;
+  text-indent: 1rem;
+  margin-bottom: 2rem;
+}
+.search:hover,
+.search:focus {
+  outline: none;
+  border: 2px solid black;
+}
+.list {
+  list-style: none;
+  text-align: center;
+}
+.listItem {
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: #444;
+  font-weight: 300;
+}
+table {
+  width: 100%;
+  margin: 50px 0px;
+  border-spacing: 15px;
+  color: #444;
+}
+
+tr {
+  margin-bottom: 20px;
+}
+
+th {
+  width: 250px;
+  text-align: left;
+  font-size: 20px;
+}
+
+td {
+  width: 250px;
+  font-size: 20px;
 }
